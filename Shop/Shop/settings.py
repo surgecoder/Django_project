@@ -76,6 +76,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'customers.Customer'  # Initial setting for Custom User Class !!!
+
 WSGI_APPLICATION = 'Shop.wsgi.application'
 
 
